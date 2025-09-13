@@ -11,7 +11,7 @@ if (!(Test-Path -Path $backup_folder)){
 $destination_path = @(
     "C:\Users\wiley\Desktop\Backup\Text_Files",
     "C:\Users\wiley\Desktop\Backup\Batch_Files",
-    "C:\Users\wiley\Desktop\Backup\PowerShell_Files"
+    "C:\Users\wiley\Desktop\Backup\PowerShell_Files",
     "C:\Users\wiley\Desktop\Backup\Null"
 )
 
