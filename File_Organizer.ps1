@@ -34,7 +34,7 @@ $folder_path = "C:\Users\wiley\Desktop\GlobexFiles"
 
 #Loop through path variable and sort
 
-foreach ($file in Get-ChildItem -Path $folderPath -File){
+foreach ($file in Get-ChildItem -Path $folder_path -File){
     if($file.Extension -eq ".txt" ) {
         Copy-Item -Path $file.FullName -Destination $text_files
     } elseif($file.Extension -eq ".ps1"){
